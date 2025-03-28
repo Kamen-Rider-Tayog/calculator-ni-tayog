@@ -1,5 +1,6 @@
 const display = document.getElementById("display");
 const nameButton = document.getElementById("name");
+const sound = new Audio("music.mp3");
 
 function appendToDisplay(input) {
 	display.value += input;
@@ -8,6 +9,9 @@ function appendToDisplay(input) {
 function clearDisplay() {
 	display.value = "";
 	nameButton.textContent = "";
+
+	sound.pause();
+	sound.currentTime = 0;
 }
 
 function calculate() {
@@ -31,6 +35,7 @@ function calculate() {
 		if (result === 143) {
 			display.value = "miss na kita :(";
 			nameButton.textContent = "chat mo na ko please";
+			sound.play();
 		} else {
 			display.value = result;
 			nameButton.textContent = "";
