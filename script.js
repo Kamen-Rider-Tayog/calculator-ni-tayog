@@ -84,7 +84,7 @@ function displayLoveNotes() {
     loveNotesTimeouts = [];
 
     display.value = "";
-    display.style.fontSize = "1.25rem";
+    display.style.fontSize = "1rem";
     display.style.textAlign = "center";
     let currentLine = 0;
 
