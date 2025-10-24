@@ -59,7 +59,7 @@ function displayLoveNotes() {
     const loveNotes = [
         { text: "Write little love notes on a post-it", delay: 3000 },
         { text: "And I'd post it on your front door", delay: 3000 },
-        { text: "Show up in suit and tie with a broach and", delay: 3000 },
+        { text: "Show up in suit and tie with a brooch and", delay: 3000 },
         { text: "With the roses on your front yard… oh…", delay: 3000 },
         { text: "Doo-doo-roo-doo", delay: 3500 },
         { text: "Yeah, ang daming paraan", delay: 3000 },
