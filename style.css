@@ -37,8 +37,10 @@ body {
     font-size: 3rem;
     text-align: right;
     border: none;
-    background-color: hsl(0, 0%, 20%);
-    color: #f4f4f4;
+    background-color: hsl(0, 2%, 9%);
+    background-clip: content-box; 
+    background-color: #ecf0f1;
+    color: black;
     transition: all 0.3s ease-in-out;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -50,7 +52,7 @@ body {
 
 /* Special style for love notes */
 #display.love-notes {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
     text-align: center !important;
     justify-content: center;
 }
@@ -126,11 +128,7 @@ button:active {
 @media (max-width: 500px) {
     #display {
         font-size: 2.5rem;
-        height: 6rem;
-    }
-    
-    #display.love-notes {
-        font-size: 1.1rem !important;
+        height: 8rem;
     }
 
     button {
